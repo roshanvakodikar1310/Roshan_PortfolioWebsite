@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0b1110">
+    <meta name="description" content="Roshan Vakodikar — Computer Engineering student and aspiring web developer. Explore selected projects, skills and contact details.">
+
+    <title>Roshan Vakodikar — Developer Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress" aria-hidden="true">
+        <span id="progressBar"></span>
+    </div>
+
+    <!-- Header -->
+    <header class="site-header" id="top">
+
+        <a class="brand" href="#home" aria-label="Roshan home">
+            <span class="brand-mark">R<span>.</span></span>
+            <span class="brand-name">
+                ROSHAN VAKODIKAR<span class="brand-dot"></span>
+            </span>
+        </a>
+
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Open navigation"
+            aria-expanded="false"
+        >
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+
+            <a href="#contact" class="nav-contact">
+                Let's talk <span>↗</span>
+            </a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero section-wrap" id="home">
+
+            <div class="hero-copy reveal">
+
+                <div class="availability">
+                    <span class="pulse-dot"></span>
+                    OPEN TO LEARNING & OPPORTUNITIES
+                </div>
+
+                <p class="eyebrow">HELLO, I'M</p>
+
+                <h1>
+                    Roshan<br>
+                    <span>Vakodikar.</span>
+                </h1>
+
+                <div class="hero-role">
+                    <span class="role-line"></span>
+
+                    <p>
+                        Computer Engineering Student
+                        <span>·</span>
+                        Aspiring Web Developer
+                    </p>
+                </div>
+
+                <p class="hero-intro">
+                    I enjoy turning ideas into clean, useful digital experiences.
+                    Currently learning, building projects, and growing one line
+                    of code at a time.
+                </p>
+
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#projects">
+                        Explore my work <span>↘</span>
+                    </a>
+                    <a href="assets/resume.pdf"
+                       class="btn btn-primary"
+                       download="Roshan_Vakodikar_Resume.pdf">
+                       <i class="fas fa-download"></i>
+                       Download Resume
+                    </a>
+                    <a class="text-link" href="#contact">
+                        Get in touch <span>↗</span>
+                    </a>
+                </div>
+
+                <div class="hero-socials">
+                    <span>FIND ME ON</span>
+
+                    <a href="https://github.com/" target="_blank" rel="noreferrer">
+                        GitHub ↗
+                    </a>
+
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+                        LinkedIn ↗
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Profile Image -->
+            <div
+                class="hero-visual profile-visual reveal"
+                aria-label="Portrait of Roshan Vakodikar"
+            >
+                <div class="visual-grid"></div>
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="visual-glow"></div>
+
+                <div class="profile-frame">
+                    <img
+                        class="profile-photo"
+                        src="assets/roshan-photo.jpeg"
+                        alt="Roshan Vakodikar wearing a navy suit"
+                    >
+                </div>
+
+                <div class="float-card float-card-top">
+                    <span class="float-icon">✳</span>
+
+                    <div>
+                        <strong>Curious mind</strong>
+                        <small>Always exploring</small>
+                    </div>
+                </div>
+
+                <div class="float-card float-card-bottom">
+                    <span class="float-icon green-icon">&lt;/&gt;</span>
+
+                    <div>
+                        <strong>Build. Learn. Repeat.</strong>
+                        <small>One project at a time</small>
+                    </div>
+                </div>
+
+                <span class="visual-caption">
+                    ROSHAN VAKODIKAR — DEVELOPER IN PROGRESS
+                </span>
+
+            </div>
+
+            <a class="scroll-cue" href="#about">
+                <span class="scroll-mouse"></span>
+                SCROLL TO EXPLORE
+            </a>
+
+        </section>
+
+        <!-- Introduction Strip -->
+        <section class="intro-strip">
+            <div class="section-wrap strip-inner">
+
+                <span class="strip-label">
+                    A LITTLE ABOUT MY APPROACH
+                </span>
+
+                <p>
+                    Curiosity first.
+                    <span>Consistency always.</span>
+                    Progress every day.
+                </p>
+
+                <span class="strip-symbol">✳</span>
+
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section section-wrap" id="about">
+
+            <div class="section-heading reveal">
+
+                <div>
+                    <p class="eyebrow">01 / ABOUT ME</p>
+
+                    <h2>
+                        Building my skills,<br>
+                        <span>one idea at a time.</span>
+                    </h2>
+                </div>
+
+                <p class="heading-note">
+                    A student today. A better developer tomorrow.
+                </p>
+
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-main reveal">
+
+                    <p class="large-copy">
+                        I'm a Computer Engineering student who likes
+                        understanding how things work — then using that
+                        knowledge to build something practical.
+                    </p>
+
+                    <p class="body-copy">
+                        From planning a website's layout to connecting its
+                        pages and interactions, I enjoy the process of
+                        bringing a project to life. I'm focused on
+                        strengthening my web development fundamentals
+                        and learning by building real projects.
+                    </p>
+
+                    <p class="body-copy">
+                        I believe good work comes from staying curious,
+                        being patient with the process, and improving
+                        a little every day.
+                    </p>
+
+                    <a class="underlined-link" href="#contact">
+                        Have a project in mind?
+                        <span>Let's connect ↗</span>
+                    </a>
+
+                </div>
+
+                <div class="about-aside reveal">
+
+                    <div class="fact-card">
+                        <span class="fact-index">01</span>
+
+                        <div>
+                            <h3>Based in</h3>
+                            <p>Surat, Gujarat, India</p>
+                        </div>
+
+                        <span class="fact-symbol">⌖</span>
+                    </div>
+
+                    <div class="fact-card">
+                        <span class="fact-index">02</span>
+
+                        <div>
+                            <h3>Currently focused on</h3>
+                            <p>Frontend & web fundamentals</p>
+                        </div>
+
+                        <span class="fact-symbol">⌘</span>
+                    </div>
+
+                    <div class="fact-card">
+                        <span class="fact-index">03</span>
+
+                        <div>
+                            <h3>My mindset</h3>
+                            <p>Learn by doing</p>
+                        </div>
+
+                        <span class="fact-symbol">↗</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills-section" id="skills">
+
+            <div class="section-wrap">
+
+                <div class="section-heading reveal">
+
+                    <div>
+                        <p class="eyebrow">02 / TOOLKIT</p>
+
+                        <h2>
+                            Tools I use to<br>
+                            <span>bring ideas to life.</span>
+                        </h2>
+                    </div>
+
+                    <p class="heading-note">
+                        Growing fundamentals, practical learning.
+                    </p>
+
+                </div>
+
+                <div class="skills-grid">
+
+                    <article class="skill-card reveal">
+
+                        <div class="skill-card-top">
+                            <span class="skill-number">01</span>
+                            <span class="skill-icon">&lt;/&gt;</span>
+                        </div>
+
+                        <h3>Frontend</h3>
+
+                        <p>
+                            Creating structured, responsive interfaces
+                            with a focus on clarity and usability.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                    </article>
+
+                    <article class="skill-card reveal">
+
+                        <div class="skill-card-top">
+                            <span class="skill-number">02</span>
+                            <span class="skill-icon">⌘</span>
+                        </div>
+
+                        <h3>Backend basics</h3>
+
+                        <p>
+                            Learning how websites handle data, forms,
+                            and database-connected features.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                        </div>
+
+                    </article>
+
+                    <article class="skill-card reveal">
+
+                        <div class="skill-card-top">
+                            <span class="skill-number">03</span>
+                            <span class="skill-icon">⌁</span>
+                        </div>
+
+                        <h3>Tools & workflow</h3>
+
+                        <p>
+                            Using development tools to organise code,
+                            test changes, and manage projects.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>VS Code</span>
+                        </div>
+
+                    </article>
+
+                </div>
+
+                <p class="skills-footnote">
+                    <span class="pulse-dot"></span>
+                    My toolkit is always evolving as I learn and build.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section section-wrap" id="projects">
+
+            <div class="section-heading reveal">
+
+                <div>
+                    <p class="eyebrow">03 / SELECTED WORK</p>
+
+                    <h2>
+                        Projects built with<br>
+                        <span>purpose and practice.</span>
+                    </h2>
+                </div>
+
+                <p class="heading-note">
+                    A work in progress — and proud of it.
+                </p>
+
+            </div>
+
+            <div class="projects-list">
+
+                <!-- Project 1: Swarg Sundari -->
+                <article class="project-card reveal">
+
+                    <div class="project-preview saree-preview">
+
+                        <div class="preview-browser">
+
+                            <div class="preview-browser-top">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <small>swargsundari.local</small>
+                            </div>
+
+                            <div class="saree-site">
+
+                                <div class="saree-nav">
+                                    SWARG SUNDARI
+
+                                    <span>
+                                        COLLECTION&nbsp;&nbsp; ABOUT&nbsp;&nbsp; CART
+                                    </span>
+                                </div>
+
+                                <div class="saree-content">
+                                    <small>THE ART OF TRADITION</small>
+
+                                    <strong>
+                                        Elegance<br>
+                                        in every weave.
+                                    </strong>
+
+                                    <span>EXPLORE COLLECTION ↗</span>
+                                </div>
+
+                                <div class="saree-art">
+                                    <div class="fabric fabric-one"></div>
+                                    <div class="fabric fabric-two"></div>
+                                    <div class="fabric fabric-three"></div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <span class="preview-label">PROJECT / 01</span>
+
+                    </div>
+
+                    <div class="project-details">
+
+                        <div class="project-meta">
+                            <span>01 — E-COMMERCE</span>
+
+                            <span class="project-status">
+                                <i></i> STUDENT PROJECT
+                            </span>
+                        </div>
+
+                        <h3>Swarg Sundari</h3>
+
+                        <p>
+                            A saree e-commerce website where customers can
+                            explore collections, view product details, add
+                            items to cart, and place Cash on Delivery orders.
+                            It also includes customer login and an admin
+                            panel for managing products and orders.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>HTML / CSS</span>
+                            <span>JavaScript</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                        </div><br>
+                        <a
+  href="https://github.com/roshanvakodikar1310/online-saree-shopping-system"
+  class="project-link"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <i class="fab fa-github"></i>
+ View on GitHub 
+</a>
+                        <div class="project-links">
+                            <a class="underlined-link" href="#contact">
+                                Ask me about this project <span>↗</span>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </article>
+
+                <!-- Project 2: Online Food Ordering -->
+                <article class="project-card project-card-reverse reveal">
+
+                    <div class="project-preview food-preview">
+
+                        <div class="food-ui">
+
+                            <div class="food-sidebar">
+                                <b>fork<span>&amp;</span>go.</b>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </div>
+
+                            <div class="food-main">
+
+                                <div class="food-topline">
+                                    <span>GOOD FOOD, GOOD MOOD</span>
+                                    <span>⌕</span>
+                                </div>
+
+                                <h4>
+                                    What are you<br>
+                                    craving today?
+                                </h4>
+
+                                <div class="food-search">
+                                    ⌕ &nbsp; Search dishes or restaurants...
+                                </div>
+
+                                <div class="food-categories">
+                                    <span>All</span>
+                                    <span>Meals</span>
+                                    <span>Snacks</span>
+                                    <span>Drinks</span>
+                                </div>
+
+                                <div class="food-cards">
+
+                                    <div>
+                                        <span class="food-emoji">🍔</span>
+                                        <b>Classic Burger</b>
+                                        <small>₹149</small>
+                                    </div>
+
+                                    <div>
+                                        <span class="food-emoji">🍕</span>
+                                        <b>Cheese Pizza</b>
+                                        <small>₹229</small>
+                                    </div>
+
+                                    <div>
+                                        <span class="food-emoji">🥗</span>
+                                        <b>Fresh Bowl</b>
+                                        <small>₹179</small>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <span class="preview-label">PROJECT / 02</span>
+
+                    </div>
+
+                    <div class="project-details">
+
+                        <div class="project-meta">
+                            <span>02 — WEB APPLICATION</span>
+
+                            <span class="project-status">
+                                <i></i> STUDENT PROJECT
+                            </span>
+                        </div>
+
+                        <h3>Online Food Ordering</h3>
+
+                        <p>
+                            A food ordering web application that lets users
+                            browse food items, search dishes, filter by
+                            category, manage their cart, and place orders.
+                            It also features an admin panel for managing
+                            food items and customer orders.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div><br>
+<a
+  href="https://github.com/roshanvakodikar1310/food-ordering-system"
+  class="project-link"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <i class="fab fa-github"></i>
+  View on GitHub 
+</a>
+                        <div class="project-links">
+                            <a class="underlined-link" href="#contact">
+                                Ask me about this project <span>↗</span>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+            <p class="project-disclaimer">
+                Project previews are illustrative mockups.
+                Replace with live links or screenshots when ready.
+            </p>
+
+        </section>
+
+        <!-- Education Section -->
+        <section class="section education-section" id="education">
+
+            <div class="section-wrap">
+
+                <div class="section-heading reveal">
+
+                    <div>
+                        <p class="eyebrow">04 / EDUCATION</p>
+
+                        <h2>
+                            Learning the<br>
+                            <span>foundations.</span>
+                        </h2>
+                    </div>
+
+                    <p class="heading-note">
+                        Every concept adds to the bigger picture.
+                    </p>
+
+                </div>
+
+                <div class="education-card reveal">
+
+                    <div class="education-icon">✳</div>
+
+                    <div class="education-main">
+
+                        <span class="education-date">
+                            CURRENTLY PURSUING
+                        </span>
+
+                        <h3>B.Tech — Computer Engineering</h3>
+
+                        <p>AMTICS · Uka Tarsadia University</p>
+
+                        <p class="education-description">
+                            Building a foundation in computing, programming,
+                            software engineering, and web development
+                            through coursework and hands-on projects.
+                        </p>
+
+                    </div>
+
+                    <div class="education-side">
+
+                        <span class="education-pill">
+                            <i></i> IN PROGRESS
+                        </span>
+
+                        <span class="education-mark">B.Tech</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+
+            <div class="section-wrap contact-wrap">
+
+                <div class="contact-copy reveal">
+
+                    <p class="eyebrow">05 / CONTACT</p>
+
+                    <h2>
+                        Let's make<br>
+                        <span>something useful.</span>
+                    </h2>
+
+                    <p>
+                        Have an idea, feedback, or an opportunity to share?
+                        I'd be happy to hear from you.
+                    </p>
+
+                    <a
+                        class="contact-email"
+                        href="mailto:roshanvakodikar1310@gmail.com"
+                    >
+                        roshanvakodikar1310@gmail.com <span>↗</span>
+                    </a>
+
+                    <small class="email-note">
+                        Replace this sample email with your real email address.
+                    </small>
+
+                </div>
+
+                <form class="contact-form reveal" id="contactForm">
+
+                    <div class="form-heading">
+                        <span>DROP A MESSAGE</span>
+                        <span class="form-star">✳</span>
+                    </div>
+
+                    <label for="name">Your name</label>
+                    <input
+                        id="name"
+                        name="name"
+                        type="text"
+                        placeholder="What should I call you?"
+                        required
+                    >
+
+                    <label for="email">Email address</label>
+                    <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        placeholder="you@example.com"
+                        required
+                    >
+
+                    <label for="message">Your message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="4"
+                        placeholder="Tell me a little about it..."
+                        required
+                    ></textarea>
+
+                    <button
+                        class="button button-primary submit-button"
+                        type="submit"
+                    >
+                        Prepare email <span>↗</span>
+                    </button>
+
+                    <p class="form-note" id="formNote">
+                        This form opens your default email app;
+                        it doesn't send data to a server.
+                    </p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <div class="section-wrap footer-inner">
+
+            <a class="brand" href="#top">
+                <span class="brand-mark">R<span>.</span></span>
+
+                <span class="brand-name">
+                    ROSHAN<span class="brand-dot">/</span>DEV
+                </span>
+            </a>
+
+            <p>Designed with curiosity. Built with intention.</p>
+
+            <span class="footer-copy">
+                © <span id="year"></span> ROSHAN VAKODIKAR
+            </span>
+
+            <a class="back-top" href="#top">
+                BACK TO TOP ↑
+            </a>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
